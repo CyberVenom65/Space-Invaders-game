@@ -35,14 +35,15 @@ Pilot your spaceship at the bottom of the screen, blast incoming alien waves, do
 
 ### 🖼️ Gameplay Previews
 
-### Menu Screen
+### 🧭 Menu Screen
 ![Menu](images/menu.png)
 
-### Gameplay Screen
+### 🚀 Gameplay Screen
 ![Gameplay](images/gameplay.png)
 
-### Game Over Screen
+### ☠️ Game Over Screen
 ![Game Over](images/gameover.png)
+
 
 ---
 
