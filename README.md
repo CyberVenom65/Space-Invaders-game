@@ -27,9 +27,9 @@ Pilot your spaceship at the bottom of the screen, blast incoming alien waves, do
 ## 📜 Description
 
 - Space Invaders is one of the earliest and most iconic arcade games. 
-- In this Pygame recreation, you command a lone starfighter defending Earth from waves of descending alien invaders. 
+- In this game, you command a lone starfighter defending Earth from waves of descending alien invaders. 
 - As the rounds progress, enemy speed and firing rate increase, testing your reflexes and strategic thinking. 
-- Perfect for fans of retro gaming or anyone learning Pygame!
+- Perfect for fans of retro gaming or anyone learning JavaScript!
 
 ---
 
