@@ -36,9 +36,11 @@ Pilot your spaceship at the bottom of the screen, blast incoming alien waves, do
 ### 🖼️ Gameplay Previews
 
 ### 🧭 Menu Screen
-![menu](https://github.com/user-attachments/assets/adb2eeb2-e274-4424-aa89-fdc84a4accf4)
-![gameplay](https://github.com/user-attachments/assets/c98ab83c-25ad-44ca-8320-1e43be58ca29)
-![gameover](https://github.com/user-attachments/assets/6f486b35-a16a-419b-ac63-12fa312de1a4)
+![start](https://github.com/user-attachments/assets/80295de8-4152-4af7-9f9b-2bd1630e5360)
+
+![gameplay](https://github.com/user-attachments/assets/0b62526c-5ca6-4519-9174-535533928941)
+
+![gameover](https://github.com/user-attachments/assets/19a71eba-1340-4f76-b23e-398acbde4583)
 
 - Get the live version of the game at: [Space Invaders](https://space-invaders-mauve.vercel.app/)
 ---
