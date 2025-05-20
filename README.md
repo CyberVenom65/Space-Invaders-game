@@ -1,6 +1,6 @@
 # 🛸 Space Invaders
 
-A classic arcade shooter built with **Python 3** and **Pygame**. 
+A classic arcade shooter built with **JavaScript**. 
 Pilot your spaceship at the bottom of the screen, blast incoming alien waves, dodge enemy fire, and see how long you can survive!
 
 ---
@@ -44,7 +44,7 @@ Pilot your spaceship at the bottom of the screen, blast incoming alien waves, do
 
 ## 🙏 Credits
 
-This game was made with love using **Python** and **Pygame**.
+This game was made with love using **JavaScript**.
 The developers:
 * [CyberVenom65](https://github.com/CyberVenom65)
 * [Nox-Invicte](https://github.com/Nox-Invicte)
