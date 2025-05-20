@@ -40,6 +40,7 @@ Pilot your spaceship at the bottom of the screen, blast incoming alien waves, do
 ![gameplay](https://github.com/user-attachments/assets/c98ab83c-25ad-44ca-8320-1e43be58ca29)
 ![gameover](https://github.com/user-attachments/assets/6f486b35-a16a-419b-ac63-12fa312de1a4)
 
+- Get the live version of the game at: [Space Invaders](https://space-invaders-mauve.vercel.app/)
 ---
 
 ## 🙏 Credits
