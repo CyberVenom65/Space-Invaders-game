@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Space Invaders - Web Version</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            user-select: none;
+        }
+        canvas {
+            display: block;
+            margin: 20px auto;
+            background-color: #000;
+            border: 2px solid white;
+        }
+        #scoreboard {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        #lives {
+            margin-top: 5px;
+        }
+        #startButton {
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #28a745;
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+        #startButton:hover {
+            background-color: #218838;
+        }
+        #startScreen, #gameOverScreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0,0,0,0.9);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 10;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        #startScreen.hidden, #gameOverScreen.hidden {
+            display: none;
+        }
+        #startScreen h1, #gameOverScreen h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        #startScreen button, #gameOverScreen button {
+            padding: 15px 30px;
+            font-size: 24px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+        }
+        #startScreen button:hover, #gameOverScreen button:hover {
+            opacity: 0.8;
+        }
+        #startScreen #playButton {
+            background-color: #28a745;
+            color: white;
+        }
+        #gameOverScreen #restartButton {
+            background-color: #28a745;
+            color: white;
+        }
+        #gameOverScreen #exitButton {
+            background-color: #dc3545;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="startScreen">
+        <h1>SPACE INVADERS</h1>
+        <button id="playButton">Play</button>
+    </div>
+    <canvas id="gameCanvas" width="600" height="600"></canvas>
+    <div id="scoreboard">Score: 0</div>
+    <div id="lives">Lives: 3</div>
+    <div id="gameOverScreen" class="hidden">
+        <h1>GAME OVER</h1>
+        <div id="finalScore"></div>
+        <button id="restartButton">Restart</button>
+        <button id="exitButton">Exit</button>
+    </div>
+
+    <div id="credits" style="color: white; font-family: Arial, sans-serif; font-size: 14px; margin-top: 10px;">
+        Credits: Nox-Invicte - <a href="https://github.com/Nox-Invicte" target="_blank" style="color: #28a745;">https://github.com/Nox-Invicte</a>, CyberVenom65 - <a href="https://github.com/CyberVenom65" target="_blank" style="color: #28a745;">https://github.com/CyberVenom65</a>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
